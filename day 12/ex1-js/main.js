@@ -28,5 +28,4 @@ var c2= new Calculator(10,6);
 c2.log();
 
 var c3= new Calculator(3,9);
-function log_log(){c3.log()};
-setTimeout( log_log , 2000);
+setTimeout( function(){c3.log()} , 2000);
