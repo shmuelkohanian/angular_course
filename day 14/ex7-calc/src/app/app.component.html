@@ -1,0 +1,22 @@
+<h1>Calculator</h1>
+<div>
+  <input #mya type="number">
+  <input #myb type="number">
+</div>
+
+<button (click)="go(mya.value, myb.value)">Go!</button>
+<div></div>
+
+ 
+<ul *ngIf= "isgo">
+  <li>{{a}} + {{b}} = {{sum1}} </li>
+  <li>{{a}} - {{b}} = {{sub1}} </li>
+  <li>{{a}} * {{b}} = {{mult1}} </li>
+</ul>
+
+
+
+
+
+
+
