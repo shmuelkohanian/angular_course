@@ -1,0 +1,15 @@
+<div class="root">
+  <h1>{{question.caption}}</h1>
+  <div>
+    <div class="list" *ngFor="let answer of question.answers; let index=index"
+    [style.background]="answer"
+          (click)="selectAnswer(index)" >
+          {{answer}}
+  </div>
+  </div>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdw1tBu0PjAbel5_g3YHmOI805KXOlb0uH1w&usqp=CAU" alt="Paris" width="450" height="260">
+
+</div>
+
+
+

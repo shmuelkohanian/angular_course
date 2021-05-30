@@ -1,0 +1,18 @@
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+  font-size: 100px;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+  font-size: 70px;
+}
+img {
+  margin-top: 60px;
+  margin-left:  350px;
+}

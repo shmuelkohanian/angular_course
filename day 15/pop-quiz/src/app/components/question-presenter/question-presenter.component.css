@@ -1,0 +1,30 @@
+
+.list {
+  list-style: none;
+  border: 2px solid rgb(158, 158, 158);
+  border-radius: 8px;
+  margin: 2px;
+  padding: 2px;
+  padding-left: 10px;
+  background-color: rgb(248, 248, 248);
+  cursor: pointer;
+
+
+}
+.list:hover{
+  border: 3px solid red;
+}
+
+h1{
+  width: fit-content;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 3px;
+}
+img {
+  margin-top: 130px;
+  margin-left:  50px;
+}
+
+
+

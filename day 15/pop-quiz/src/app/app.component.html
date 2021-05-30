@@ -1,0 +1,30 @@
+<div class="title">
+  <app-title [title]="title">
+  </app-title>
+</div>
+
+
+<div class="main" >
+  <app-question-presenter
+  *ngIf="!quizOver"
+  [question]="currentQuestion"
+  (selectedAnswer)="goNextQuestion($event)">
+  </app-question-presenter>
+
+  <app-quiz-over *ngIf="quizOver"
+  [completeQuestions]="answeredQuestions">
+  <h1>finish</h1>
+  </app-quiz-over>
+</div>
+
+
+<div class="summary">
+  <app-summary
+  [completeQuestions]="answeredQuestions">
+  </app-summary>
+</div>
+
+
+
+
+

@@ -1,0 +1,17 @@
+<div class="root">
+  <h1>Your answers:</h1>
+  <ul>
+    <li class="ans" *ngFor="let question of completeQuestions">
+      <p>
+          {{question.caption}}</p>
+        <p
+        [class.AnCorrect]="question.userAnswer !== question.correctAnswer"
+        [class.Correct]="question.userAnswer === question.correctAnswer"
+        >{{question.answers[question.userAnswer]}}
+      </p>
+      <p *ngIf="question.userAnswer !== question.correctAnswer">
+        Wrong, the corect answer is: {{question.answers[question.correctAnswer]}}
+      </p>
+    </li>
+  </ul>
+</div>
