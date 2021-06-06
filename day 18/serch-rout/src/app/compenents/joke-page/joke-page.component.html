@@ -1,0 +1,29 @@
+<div *ngFor="let joke of (joke$ | async)">
+
+<div class="setup">
+  {{joke["setup"]}}
+</div>
+
+<div class="punchline">
+  {{joke["punchline"]}}
+</div>
+
+<div class="type">
+type: {{joke["type"]}}
+</div>
+
+</div>
+
+
+
+
+<button class="new" (click)="goToSearch()">
+  New Search
+</button>
+<button *ngIf="(hasPrev$ | async)" class="Prev" (click)="goPrev()">
+  Prev
+</button>
+<button *ngIf="(hasNext$ | async)" class="Next" (click)="goNext()">
+  Next
+</button>
+

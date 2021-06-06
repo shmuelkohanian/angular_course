@@ -1,0 +1,26 @@
+.box{
+  display: flex;
+  flex-direction: row;
+
+}
+.copy{
+  height: 100px;
+  width: 100px;
+  /* background-color:; */
+  margin: 10px;
+  align-items: center;
+  border: darkslategrey solid 2px;
+}
+.original{
+  height: 100px;
+  width: 100px;
+  /* background-color: blue; */
+  margin: 10px;
+  align-items: center;
+  border: darkslategrey solid 2px;
+}
+
+div{
+  height: 100px;
+  width: 100px;
+}

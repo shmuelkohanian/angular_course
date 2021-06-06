@@ -1,0 +1,39 @@
+.items{
+  display: flex;
+  flex-direction: row;
+  /* background-color: rgb(209, 49, 0); */
+}
+
+.inputColor{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+input{
+  height: 20px;
+  width: 50px;
+  margin-left: 10px;
+}
+.my{
+
+  margin: 10px;
+}
+.comp{
+  margin: 10px;
+}
+
+.success {
+  margin-top: 20px;
+  font-size: 50px;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+

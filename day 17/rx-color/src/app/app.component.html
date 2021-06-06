@@ -1,0 +1,12 @@
+<div>
+  <button (click)="setRandomColor()">Random</button>
+  <div class="items">
+
+
+    <app-inputs></app-inputs>
+    <app-box-color class="my" [color]="myColor$ | async"></app-box-color>
+    <app-box-color class="comp" [color]="computerColor$ |async"></app-box-color>
+    <div class="success" *ngIf="seccess$ |async" [style.color] = "computerColor$ |async" > seccess</div>
+
+  </div>
+</div>

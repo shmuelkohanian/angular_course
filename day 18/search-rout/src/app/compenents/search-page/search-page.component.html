@@ -1,0 +1,24 @@
+<div class="buttonIn">
+  <input #search class="input-search" type="text">
+  <button (click)="startSearch(search.value, mytype.value)">search</button>
+</div>
+
+
+
+
+    <label >Choose a type:</label>
+    <select #mytype class="type" >
+      <option value="ALL">ALL</option>
+      <option *ngFor="let type of (types$ |async)" [value]="type">{{type}}</option>
+
+    </select>
+
+
+
+
+
+
+
+
+
+

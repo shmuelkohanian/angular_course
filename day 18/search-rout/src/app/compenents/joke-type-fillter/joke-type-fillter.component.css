@@ -1,0 +1,31 @@
+.setup{
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.punchline{
+  font-size: 25px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.type{
+  font-size: 18px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.new{
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  background-color: rgb(217, 252, 240);
+  cursor: pointer;
+
+}
+.Next{
+  margin: 20px;
+}
+.Prev{
+  margin: 20px;
+}
