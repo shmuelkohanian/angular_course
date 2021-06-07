@@ -1,0 +1,39 @@
+{
+
+	"lists":
+		[
+			{
+			"id": 1,
+			"caption": "Shopping",
+			"descrption": "Buy fruit to my wife",
+			"image": "image",
+			"url": "url",
+			"color": "pink"
+			},
+			{
+			"id": 2,
+			"caption": "Event",
+			"descrption": "Birthday",
+			"image": "image",
+			"url": "url",
+			"color": "pink"
+			}
+
+		],
+	"items":
+		[
+			{
+			"id": 1,
+			"caption": "olives",
+			"listId": 1,
+			"isCompleted": false
+			},
+			{
+			"id": 2,
+			"caption": "Balloons",
+			"listId": 2,
+			"isCompleted": true
+			}
+		]
+}
+

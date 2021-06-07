@@ -1,0 +1,12 @@
+<p>lists works!</p>
+
+<div class="lists" *ngFor="let list of (lists$ | async); let i = index"
+(click)="goToList((list.id ))"
+>
+<div>
+  {{list.caption}}
+  {{list.caption}}
+</div>
+</div>
+
+<button (click)="addList()">new...</button>
