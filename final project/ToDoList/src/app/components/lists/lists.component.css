@@ -1,5 +1,30 @@
-.lists{
+.lists,button{
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   margin: 10px;
-  background-color: blueviolet;
-  width: fit-content;
+  background-color: rgb(219, 255, 253);
+  border: 1px solid rgb(156, 240, 255);
+  height: 80px;
+  width: 120px;
+  cursor:pointer;
 }
+i{
+  font-size: 30px;
+  margin: 5px;
+}
+.boxes{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.lists:hover ,button:hover {
+	background:linear-gradient(to bottom, #6ed6ff 5%, #baf4fc 100%);
+}
+
+button{
+  font-size: 20px;
+  font-weight: bold;
+}
+

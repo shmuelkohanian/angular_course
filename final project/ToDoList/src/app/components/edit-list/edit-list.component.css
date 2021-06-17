@@ -1,0 +1,15 @@
+.inputs{
+  margin: 20px;
+  width: 200px;
+  font-weight: bold;
+}
+
+input, textarea {
+  outline: 0px transparent;
+}
+
+input.ng-invalid.ng-touched,
+select.ng-invalid.ng-touched,
+textarea.ng-invalid.ng-touched {
+  border: 2px solid red;
+}

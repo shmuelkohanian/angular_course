@@ -12,7 +12,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
   constructor() { }
-
+  amount: number =2.175
 
 
 }

@@ -1,8 +1,8 @@
 export interface TodoList{
   id: number;
   caption: string;
-  descrption: string;
+  description: string;
   image:string;
-  url: string;
   color: string;
 }
+

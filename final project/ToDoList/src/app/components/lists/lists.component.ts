@@ -17,24 +17,15 @@ export class ListsComponent implements OnInit {
              private router:Router) { }
 
   ngOnInit(): void {
-    this.lists$ = this.data.getLists();
+    this.lists$ = this.data.lists$;
 
   }
-
   goToList(id:number){
     this.router.navigate(['lists', id])
   }
 
-  // addList(id:number){
-  //   this.lists$.pipe(
-  //     map(list =>
-  //       {
-  //         let id = list.slice(-1)[0].id;
-  //         this.router.navigate(['lists', id]);
-  //     }
-  //         ))}
   addList(){
-    this.router.navigate(['lists', "new" , 'edit'])
+    this.router.navigate(['lists', "-1" , 'edit'])
   }
 
 }

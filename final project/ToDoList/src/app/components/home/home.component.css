@@ -12,6 +12,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  cursor:pointer;
 }
 
 .row {
@@ -23,6 +24,7 @@
 button {
   margin: 3px;
   padding: 2px;
+  cursor:pointer;
 }
 
 .fas{

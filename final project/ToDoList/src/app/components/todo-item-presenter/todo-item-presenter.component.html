@@ -1,0 +1,21 @@
+
+
+<!-- <div class="mission">
+  <input type="checkbox" value="{{caption}}" (change)="updateItem(caption , $event)" [checked]="isCompleted">
+  {{caption}}
+</div> -->
+
+
+<div class="mission" >
+  <input type="checkbox" value="{{caption}}" (change)="update()" [checked]="isCompleted">
+<label
+[style.text-decoration]="isCompleted? 'line-through' : 'none'"
+[style.opacity]="isCompleted? '0.5' : '1'"
+(click)="update()"
+class="item-text"
+>
+
+  {{caption}}
+
+</label>
+</div>

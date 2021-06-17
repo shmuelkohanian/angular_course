@@ -33,8 +33,12 @@ export class EditPersonComponent implements OnInit {
 
   save(){
     this.personToEdit =this.personForm.value;
-
   }
 
 
 }
+
+
+
+
+

@@ -11,6 +11,11 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { ShowListComponent } from './components/show-list/show-list.component';
 import { EditListComponent } from './components/edit-list/edit-list.component';
+import { NotFoundComponent } from './components/not-found/not-found.component';
+import { SharedModule } from './shared/shared.module';
+
+
+
 
 @NgModule({
   declarations: [
@@ -20,14 +25,16 @@ import { EditListComponent } from './components/edit-list/edit-list.component';
     ListsComponent,
     ItemsComponent,
     ShowListComponent,
-    EditListComponent
+    EditListComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    HttpClientModule
-  ],
+    HttpClientModule,
+    SharedModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

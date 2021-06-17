@@ -1,39 +1,37 @@
 {
-
-	"lists":
-		[
-			{
-			"id": 1,
-			"caption": "Shopping",
-			"descrption": "Buy fruit to my wife",
-			"image": "image",
-			"url": "url",
-			"color": "pink"
-			},
-			{
-			"id": 2,
-			"caption": "Event",
-			"descrption": "Birthday",
-			"image": "image",
-			"url": "url",
-			"color": "pink"
-			}
-
-		],
-	"items":
-		[
-			{
-			"id": 1,
-			"caption": "olives",
-			"listId": 1,
-			"isCompleted": false
-			},
-			{
-			"id": 2,
-			"caption": "Balloons",
-			"listId": 2,
-			"isCompleted": true
-			}
-		]
+  "lists": [
+    {
+      "caption": "ads",
+      "descrption": "asda a ddas a das das das da as das",
+      "image": "",
+      "color": "blue",
+      "id": 3
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "caption": "asd asd as dasd das",
+      "listId": 3,
+      "isCompleted": false
+    },
+    {
+      "id": 2,
+      "caption": " asd ddas ddas  das dasdas",
+      "listId": 3,
+      "isCompleted": false
+    },
+    {
+      "id": 3,
+      "caption": "asd s  dasdas das das das",
+      "listId": 3,
+      "isCompleted": false
+    },
+    {
+      "id": 4,
+      "caption": " asddas das das",
+      "listId": 3,
+      "isCompleted": false
+    }
+  ]
 }
-

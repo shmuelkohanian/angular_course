@@ -1,0 +1,17 @@
+.mission{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px;
+  cursor:pointer;
+}
+
+.item-text{
+  margin-left: 10px;
+  cursor:pointer;
+}
+input{
+  margin-left: 10px;
+  cursor:pointer;
+
+}
