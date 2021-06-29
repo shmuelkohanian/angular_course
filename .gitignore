@@ -394,6 +394,7 @@ FodyWeavers.xsd
 # compiled output
 /dist
 /tmp
+/tmp
 
 *.cache
 
