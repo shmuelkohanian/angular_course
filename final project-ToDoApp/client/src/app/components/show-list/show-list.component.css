@@ -1,0 +1,140 @@
+.buttons{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+button,label{
+  margin-left: 10px;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+
+
+}
+
+.fas-up{
+  margin: 10px;
+  font-size: 50px;
+
+
+}
+.dec{
+  margin-left: 15px;
+  flex-wrap: wrap;
+}
+.tytle{
+  color: blueviolet;
+  margin: 10px;
+}
+.mission{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px;
+
+
+  text-align: center;
+}
+input{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-right: 10px;
+  flex-wrap: wrap;
+}
+.myButton {
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color:#007dc1;
+	border-radius:7px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:11px;
+	padding:6px 16px;
+	text-decoration:none;
+  flex-wrap: wrap;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #78c1f5 5%, #0c6b9e 100%);
+	background-color:#0061a7;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.add-item{
+  display: flex;
+  flex-direction: row;
+
+}
+.input-item{
+  width: 200px;
+  height: 25px;
+
+}
+.addButton {
+  cursor: pointer;
+  border: none;
+}
+.fa-plus-circle {
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+input.ng-invalid.ng-touched,
+select.ng-invalid.ng-touched,
+textarea.ng-invalid.ng-touched {
+  border: 2px solid red;
+}
+input, textarea {
+  outline: 0px transparent;
+}
+
+.myDeleteButton {
+	background:linear-gradient(to bottom, #c72929 5%, #830707 100%);
+	border-radius:7px;
+	border:1px solid #3f0202;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:12px;
+	padding:6px 16px;
+	text-decoration:none;
+  flex-wrap: wrap;
+}
+.myDeleteButton:hover {
+	background:linear-gradient(to bottom, #f37373 5%, #f70909 100%);
+	background-color:#a70000;
+}
+.myDeleteButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myCancelButton {
+	background:linear-gradient(to bottom, #168a1c 5%, #0b4e05 100%);
+	border-radius:7px;
+	border:1px solid #073b14;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:12px;
+	padding:6px 16px;
+	text-decoration:none;
+  flex-wrap: wrap;
+}
+.myCancelButton:hover {
+	background:linear-gradient(to bottom, #5af567 5%, #14c223 100%);
+	background-color:#043a06;
+}
+.myCancelButton:active {
+	position:relative;
+	top:1px;
+}

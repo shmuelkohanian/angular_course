@@ -1,0 +1,36 @@
+
+<div class="top">
+  <h2>ToDos app</h2>
+  <h3>by {{name}}</h3>
+  <p>{{date| date: 'dd/MM/yyyy'}}</p>
+  <div class="row">
+    <button class="myButton" (click)="createNewList()">Create New List</button>
+    <button class="myButton" (click)="goToLists()">View All Lists</button>
+    <button class="myButton" (click)="goToItems()">View All Items</button>
+  </div>
+</div>
+
+
+
+<div class="content">
+  <div class="list">
+    <i class="fas fas-list"> &#xf0ca; </i>
+    <span>{{listNumber$|async}}</span>
+    <span>Lists</span>
+  </div>
+
+  <div class="todo">
+    <i class="fas fas-todo"> &#xf00c;</i>
+    <span>{{itemNumber$|async}}</span>
+    <span>Todo Items</span>
+  </div>
+  <div class="active">
+    <i class="fas fas-active"> &#xf252; </i>
+    <span>{{activeItemNumber$|async}}</span>
+    <span>Active Items</span>
+  </div>
+
+</div>
+
+
+

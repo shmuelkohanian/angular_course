@@ -1,0 +1,77 @@
+:host{
+  display: grid;
+  grid-template-columns: 3fr;
+  grid-template-rows: auto 1fr;
+}
+
+.top{
+  grid-row: 1 ;
+  grid-column: 1/-1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+}
+
+button {
+  margin: 3px;
+  padding: 2px;
+  cursor:pointer;
+}
+
+.fas{
+  font-size: 25px;
+  color: rgb(52, 118, 241);
+}
+.list{
+  grid-column: 1 / 2;
+  justify-content: flex-end;
+  text-align: center;
+}
+.todo{
+  grid-column: 2 / 3;
+  justify-content: center;
+  text-align: center;
+
+
+}
+.active{
+  grid-column: 3 / 4;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.content{
+  margin-top: 70px;
+}
+
+.myButton {
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color:#007dc1;
+	border-radius:7px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:11px;
+	padding:6px 16px;
+	text-decoration:none;
+  flex-wrap: wrap;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #78c1f5 5%, #0c6b9e 100%);
+	background-color:#0061a7;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
